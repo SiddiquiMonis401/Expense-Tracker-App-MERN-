@@ -1,0 +1,90 @@
+.App{
+  text-align: center;
+}
+.expense-card{
+  
+  width: 20vw;
+  border-top: 2px solid red;
+  border-left: 2px solid yellow;
+  border-bottom: 2px solid red;
+  border-right: 2px solid yellow;
+  margin: 100px 100px 0px 550px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px 10px;
+  padding: 2rem 2rem;
+  border-radius: 10px;
+   
+}
+.expense-card-form{
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.expense-card-form input{
+       border: 1px solid yellow;
+       border-radius: 10px;
+       padding: 0.5rem 1.5rem;
+       
+       
+
+}
+.btn-form{
+  width: 100px;
+  margin-left: 80px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border-top: 2px solid red;
+  border-right:2px solid yellow;
+  border-bottom: 2px solid green;
+  border-left: 2px solid blue;
+  background-color:white;
+  transition: 0.5s;
+}
+.expense-card button:hover{
+  background-color:blue;
+  border: 2px solid yellow;
+}
+.income-expense{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: wheat;
+}
+.income{
+  color:blue;
+  font-size: 1.5rem;
+}
+.expenses{
+  color:red;
+  font-size: 1.5rem;
+}
+.history-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 5px rgb(255, 255, 255)
+}
+.history-list button{
+  height: 2rem;
+  width: 2rem;
+  padding: 0.3rem 0.3rem;
+  font-size: 1rem;
+  text-align: center;
+
+}
+.expense-amount{
+  color:red;
+  border-right: 4px solid red;
+}
+
+.income-amount{
+  color:blue;
+  
+  border-right: 4px solid blue;
+}
